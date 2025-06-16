@@ -69,7 +69,7 @@ export default function Navbar() {
           >
             <a
               href="#about"
-              onClick={() => scrollToSection("about")}
+              onClick={() => scrollToSection("introduction")}
               className={`text-lg transition-colors duration-300 ${
                 isOpen || isScrolled ? "text-black" : "text-white"
               }`}
