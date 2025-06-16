@@ -28,21 +28,22 @@ const Results: React.FC = () => {
     document.body.style.overflow = isModalOpen ? "hidden" : "";
   }, [isModalOpen]);
 
-  const openModal = (image: StaticImageData, text: string) => {
+  const openModal = (image: StaticImageData) => {
     setModalImage(image);
     setIsModalOpen(true);
   };
+
 
   const closeModal = () => {
     setModalImage(null);
     setIsModalOpen(false);
   };
 
-  const galleryImages: GalleryImage[] = [
-    { image: GalleryImage1, text: "Description for Image 1" },
-    { image: GalleryImage2, text: "Description for Image 2" },
-    { image: GalleryImage3, text: "Description for Image 3" },
-    { image: GalleryImage4, text: "Description for Image 4" },
+  const galleryImages: StaticImageData[] = [
+    GalleryImage1,
+    GalleryImage2,
+    GalleryImage3,
+    GalleryImage4,
   ];
 
   const cardItems: CardItem[] = [
@@ -60,11 +61,11 @@ const Results: React.FC = () => {
         <div className="flex flex-col gap-8 bg-neutral-800 h-full rounded-2xl border overflow-hidden">
           {/* Gallery */}
           <div className="grid grid-cols-2">
-            {galleryImages.map(({ image, text }, index) => (
+            {galleryImages.map((image, index) => (
               <div
                 key={index}
                 className="relative w-full h-40 overflow-hidden cursor-pointer shadow-md"
-                onClick={() => openModal(image, text)}
+                onClick={() => openModal(image)}
               >
                 <Image
                   src={image}

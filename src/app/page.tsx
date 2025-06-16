@@ -7,7 +7,6 @@ import Results from '@/components/Results';
 import Recommendations from '@/components/Recommendations';
 import AdvocacyAndAuthors from '@/components/AdvocacyAndAuthors';
 import Conclusion from '@/components/Conclusion';
-import Divider from '@/components/Divider';
 
 export default function Home() {
   return (
@@ -24,7 +23,7 @@ export default function Home() {
         <Conclusion />
         <Recommendations />
       </div>
-      <footer className="bg-gray-800 text-white text-center p-4">
+      <footer className="bg-neutral-800 text-white text-center p-4">
         <p>© 2024 SOLACE. All rights reserved.</p>
       </footer>
     </main>
