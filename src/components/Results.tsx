@@ -9,11 +9,6 @@ import GalleryImage2 from "../assets/results/testing_mse.png";
 import GalleryImage3 from "../assets/results/testing_rmse.png";
 import GalleryImage4 from "../assets/results/testing_r_squared.png";
 
-type GalleryImage = {
-  image: StaticImageData;
-  text: string;
-};
-
 type CardItem = {
   title: string;
   subtitle: string;
