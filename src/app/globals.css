@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --purple: #652d8a;
+  --purple-dark: #2f1441;
+  --purple-transparent: rgba(101, 45, 138, 0.5);
+  --light-purple: #ae3be9;
+  --darker-neon: #108078;
+  --dark-neon: #13a89e;
+  --neon: #12c99d;
+  --white: #ffffff;
+  --black: #000000;
+  --light-gray: #9d9da0;
+  --light-gray-100: #d1d1d1;
+  --dark-gray: #2b2b2b;
+  --dark-gray-100: #3a3a3a;
+  --dark-gray-200: #000000b2;
+}
