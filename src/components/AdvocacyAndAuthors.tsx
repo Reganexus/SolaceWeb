@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import AdvocacyImage from "../assets/authors/ruth2.jpg";
-import AuthorImage1 from "../assets/authors/vinas.png";
+import AuthorImage1 from "../assets/authors/vinas.jpg";
 import AuthorImage2 from "../assets/authors/tacda.jpg";
 import AuthorImage3 from "../assets/authors/roxas.jpg";
 import AuthorImage4 from "../assets/authors/peren.png";

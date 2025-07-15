@@ -24,7 +24,7 @@ export default function Home() {
         <Recommendations />
       </div>
       <footer className="bg-neutral-800 text-white text-center p-4">
-        <p>© 2024 SOLACE. All rights reserved.</p>
+        <p>© 2025 SOLACE. All rights reserved.</p>
       </footer>
     </main>
   );
