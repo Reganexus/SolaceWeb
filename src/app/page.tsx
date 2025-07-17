@@ -23,8 +23,8 @@ export default function Home() {
         <Conclusion />
         <Recommendations />
       </div>
-      <footer className="bg-neutral-800 text-white text-center p-4">
-        <p>© 2025 SOLACE. All rights reserved.</p>
+      <footer className="text-center text-sm text-gray-400 py-8">
+        &copy; {new Date().getFullYear()} SOLACE. All rights reserved.
       </footer>
     </main>
   );

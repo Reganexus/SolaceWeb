@@ -5,6 +5,7 @@ import Image from "next/image";
 import SolaceLogo from "../assets/images/solace.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import Link from 'next/link';
 
 export default function Navbar() {
   const scrollThreshold = 50;
@@ -103,15 +104,13 @@ export default function Navbar() {
             >
               Recommendations
             </a>
-            <a
-              href="/apk/solace.apk"
-              download
+            <Link
+              href="/download"
               className="text-lg transition-colors duration-300 text-white px-4 py-2 w-full text-center rounded"
               style={{ background: "var(--dark-neon)" }}
             >
               Download App
-            </a>
-
+            </Link>
           </div>
         </div>
       </div>

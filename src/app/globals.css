@@ -18,3 +18,8 @@
   --dark-gray-100: #3a3a3a;
   --dark-gray-200: #000000b2;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
